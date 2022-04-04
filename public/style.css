@@ -14,7 +14,12 @@ body {
 
 .albums-wrap {
   height: 100vh;
+  margin-top: 3rem;
   padding: 10px;
+}
+
+.no-albums {
+  height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;

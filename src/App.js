@@ -1,10 +1,11 @@
 import React from 'react';
-import './App.css';
+import Albums from './Albums';
+import { sortedAlbums } from './sortAlbums';
 
 const App = () => {
   return (
-    <div className="App">
-      <h1>Hello</h1>
+    <div className="app">
+      <Albums albums={sortedAlbums} />
     </div>
   );
 };

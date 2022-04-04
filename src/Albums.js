@@ -16,7 +16,6 @@ const Albums = ({ albums }) => {
     const updatedAlbums = [...albumsList].filter(
       (album) => album.title !== title
     );
-    console.log(title);
     setAlbumsList(updatedAlbums);
   };
 
